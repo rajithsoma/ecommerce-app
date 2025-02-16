@@ -35,7 +35,7 @@ $_SESSION['order_items'] = $order_items;
 
     <input type="hidden" id="totalAmount" value="<?php echo $total_amount; ?>">
 
-    <button type="button" onclick="initiatePayment()">Proceed to Payment</button>
+    <button class="submitBtn" type="button" onclick="initiatePayment()">Proceed to Payment</button>
 </form>
 
 <script>

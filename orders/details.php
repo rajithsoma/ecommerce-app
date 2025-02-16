@@ -61,4 +61,16 @@ $refunds = $refunds_stmt->fetchAll(PDO::FETCH_ASSOC);
     </table>
 <?php endif; ?>
 
+<?php if ($order['status'] === 'completed'): ?>
+    <h2>Initiate Refund</h2>
+    <form action="refund.php" method="POST">
+        <input type="hidden" name="order_id" value="<?= $order['id'] ?>">
+        <label for="refund_amount">Refund Amount:</label>
+        <input type="number" id="refund_amount" name="refund_amount" required><br><br>
+        <label for="refund_reason">Refund Reason:</label>
+        <textarea id="refund_reason" name="refund_reason" required></textarea><br><br>
+        <button class="submitBtn" type="submit">Process Refund</button>
+    </form>
+<?php endif; ?>
+
 <?php include '../includes/footer.php'; ?>
