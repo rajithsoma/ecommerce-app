@@ -1,0 +1,6 @@
+<?php
+define('PAYTABS_PROFILE_ID', '132344');
+define('PAYTABS_SERVER_KEY', 'SWJ992BZTN-JHGTJBWDLM-BZJKMR2ZHT');
+define('PAYTABS_REGION', 'EGY'); // Egypt
+define('PAYTABS_CURRENCY', 'EGP'); // Egyptian Pound
+?>

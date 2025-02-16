@@ -1,0 +1,333 @@
+Raw Input:
+{"tran_ref":"TST2504702014041","merchant_id":74060,"profile_id":132344,"cart_id":"100","cart_description":"Order Payment","cart_currency":"EGP","cart_amount":"900.00","tran_currency":"EGP","tran_total":"900.00","tran_type":"Sale","tran_class":"ECom","customer_details":{"name":"Rajitha Somaweera","email":"rajithsoma@gmail.com","phone":"0711209420","street1":"ruwanwella","city":"kegalle","state":"62","country":"LK","zip":"00035","ip":"2402:4000:13e1:8bfa:c59:d729:5529:e258"},"payment_result":{"response_status":"A","response_code":"G81068","response_message":"Authorised","acquirer_ref":"TRAN0002.67B16D2C.0009FE71","cvv_result":" ","avs_result":" ","transaction_time":"2025-02-16T04:44:28Z"},"payment_info":{"payment_method":"Visa","card_type":"Credit","card_scheme":"Visa","payment_description":"4111 11## #### 1111","expiryMonth":12,"expiryYear":2026},"threeDSDetails":{"responseLevel":1,"responseStatus":1,"enrolled":"N","paResStatus":"","eci":"","cavv":"","ucaf":"","threeDSVersion":"Test/Simulation"},"ipn_trace":"IPNS0002.67B16D2C.0000DC5F","paymentChannel":"Payment Page"}
+Decoded Response:
+Array
+(
+    [tran_ref] => TST2504702014041
+    [merchant_id] => 74060
+    [profile_id] => 132344
+    [cart_id] => 100
+    [cart_description] => Order Payment
+    [cart_currency] => EGP
+    [cart_amount] => 900.00
+    [tran_currency] => EGP
+    [tran_total] => 900.00
+    [tran_type] => Sale
+    [tran_class] => ECom
+    [customer_details] => Array
+        (
+            [name] => Rajitha Somaweera
+            [email] => rajithsoma@gmail.com
+            [phone] => 0711209420
+            [street1] => ruwanwella
+            [city] => kegalle
+            [state] => 62
+            [country] => LK
+            [zip] => 00035
+            [ip] => 2402:4000:13e1:8bfa:c59:d729:5529:e258
+        )
+
+    [payment_result] => Array
+        (
+            [response_status] => A
+            [response_code] => G81068
+            [response_message] => Authorised
+            [acquirer_ref] => TRAN0002.67B16D2C.0009FE71
+            [cvv_result] =>  
+            [avs_result] =>  
+            [transaction_time] => 2025-02-16T04:44:28Z
+        )
+
+    [payment_info] => Array
+        (
+            [payment_method] => Visa
+            [card_type] => Credit
+            [card_scheme] => Visa
+            [payment_description] => 4111 11## #### 1111
+            [expiryMonth] => 12
+            [expiryYear] => 2026
+        )
+
+    [threeDSDetails] => Array
+        (
+            [responseLevel] => 1
+            [responseStatus] => 1
+            [enrolled] => N
+            [paResStatus] => 
+            [eci] => 
+            [cavv] => 
+            [ucaf] => 
+            [threeDSVersion] => Test/Simulation
+        )
+
+    [ipn_trace] => IPNS0002.67B16D2C.0000DC5F
+    [paymentChannel] => Payment Page
+)
+
+Order iteams :
+
+Raw Input:
+{"tran_ref":"TST2504702014043","merchant_id":74060,"profile_id":132344,"cart_id":"102","cart_description":"Order Payment","cart_currency":"EGP","cart_amount":"300.00","tran_currency":"EGP","tran_total":"300.00","tran_type":"Sale","tran_class":"ECom","customer_details":{"name":"Rajitha Somaweera","email":"rajithsoma@gmail.com","phone":"0711209420","street1":"ruwanwella","city":"kegalle","state":"11","country":"LK","zip":"00035","ip":"2402:4000:13e1:8bfa:c59:d729:5529:e258"},"payment_result":{"response_status":"A","response_code":"G81759","response_message":"Authorised","acquirer_ref":"TRAN0001.67B16FDF.0009D532","cvv_result":" ","avs_result":" ","transaction_time":"2025-02-16T04:55:59Z"},"payment_info":{"payment_method":"Visa","card_type":"Credit","card_scheme":"Visa","payment_description":"4111 11## #### 1111","expiryMonth":12,"expiryYear":2026},"threeDSDetails":{"responseLevel":1,"responseStatus":1,"enrolled":"N","paResStatus":"","eci":"","cavv":"","ucaf":"","threeDSVersion":"Test/Simulation"},"ipn_trace":"IPNS0001.67B16FDF.0000DBA1","paymentChannel":"Payment Page"}
+Decoded Response:
+Array
+(
+    [tran_ref] => TST2504702014043
+    [merchant_id] => 74060
+    [profile_id] => 132344
+    [cart_id] => 102
+    [cart_description] => Order Payment
+    [cart_currency] => EGP
+    [cart_amount] => 300.00
+    [tran_currency] => EGP
+    [tran_total] => 300.00
+    [tran_type] => Sale
+    [tran_class] => ECom
+    [customer_details] => Array
+        (
+            [name] => Rajitha Somaweera
+            [email] => rajithsoma@gmail.com
+            [phone] => 0711209420
+            [street1] => ruwanwella
+            [city] => kegalle
+            [state] => 11
+            [country] => LK
+            [zip] => 00035
+            [ip] => 2402:4000:13e1:8bfa:c59:d729:5529:e258
+        )
+
+    [payment_result] => Array
+        (
+            [response_status] => A
+            [response_code] => G81759
+            [response_message] => Authorised
+            [acquirer_ref] => TRAN0001.67B16FDF.0009D532
+            [cvv_result] =>  
+            [avs_result] =>  
+            [transaction_time] => 2025-02-16T04:55:59Z
+        )
+
+    [payment_info] => Array
+        (
+            [payment_method] => Visa
+            [card_type] => Credit
+            [card_scheme] => Visa
+            [payment_description] => 4111 11## #### 1111
+            [expiryMonth] => 12
+            [expiryYear] => 2026
+        )
+
+    [threeDSDetails] => Array
+        (
+            [responseLevel] => 1
+            [responseStatus] => 1
+            [enrolled] => N
+            [paResStatus] => 
+            [eci] => 
+            [cavv] => 
+            [ucaf] => 
+            [threeDSVersion] => Test/Simulation
+        )
+
+    [ipn_trace] => IPNS0001.67B16FDF.0000DBA1
+    [paymentChannel] => Payment Page
+)
+
+Raw Input:
+{"tran_ref":"TST2504702014044","merchant_id":74060,"profile_id":132344,"cart_id":"103","cart_description":"Order Payment","cart_currency":"EGP","cart_amount":"600.00","tran_currency":"EGP","tran_total":"600.00","tran_type":"Sale","tran_class":"ECom","customer_details":{"name":"Rajitha Somaweera","email":"rajithsoma@gmail.com","phone":"0711209420","street1":"ruwanwella","city":"kegalle","state":"11","country":"LK","zip":"00035","ip":"2402:4000:13e1:8bfa:c59:d729:5529:e258"},"payment_result":{"response_status":"A","response_code":"G82015","response_message":"Authorised","acquirer_ref":"TRAN0002.67B170DE.000A0196","cvv_result":" ","avs_result":" ","transaction_time":"2025-02-16T05:00:15Z"},"payment_info":{"payment_method":"Visa","card_type":"Credit","card_scheme":"Visa","payment_description":"4111 11## #### 1111","expiryMonth":12,"expiryYear":2026},"threeDSDetails":{"responseLevel":1,"responseStatus":1,"enrolled":"N","paResStatus":"","eci":"","cavv":"","ucaf":"","threeDSVersion":"Test/Simulation"},"ipn_trace":"IPNS0002.67B170DF.0000DC89","paymentChannel":"Payment Page"}
+Decoded Response:
+Array
+(
+    [tran_ref] => TST2504702014044
+    [merchant_id] => 74060
+    [profile_id] => 132344
+    [cart_id] => 103
+    [cart_description] => Order Payment
+    [cart_currency] => EGP
+    [cart_amount] => 600.00
+    [tran_currency] => EGP
+    [tran_total] => 600.00
+    [tran_type] => Sale
+    [tran_class] => ECom
+    [customer_details] => Array
+        (
+            [name] => Rajitha Somaweera
+            [email] => rajithsoma@gmail.com
+            [phone] => 0711209420
+            [street1] => ruwanwella
+            [city] => kegalle
+            [state] => 11
+            [country] => LK
+            [zip] => 00035
+            [ip] => 2402:4000:13e1:8bfa:c59:d729:5529:e258
+        )
+
+    [payment_result] => Array
+        (
+            [response_status] => A
+            [response_code] => G82015
+            [response_message] => Authorised
+            [acquirer_ref] => TRAN0002.67B170DE.000A0196
+            [cvv_result] =>  
+            [avs_result] =>  
+            [transaction_time] => 2025-02-16T05:00:15Z
+        )
+
+    [payment_info] => Array
+        (
+            [payment_method] => Visa
+            [card_type] => Credit
+            [card_scheme] => Visa
+            [payment_description] => 4111 11## #### 1111
+            [expiryMonth] => 12
+            [expiryYear] => 2026
+        )
+
+    [threeDSDetails] => Array
+        (
+            [responseLevel] => 1
+            [responseStatus] => 1
+            [enrolled] => N
+            [paResStatus] => 
+            [eci] => 
+            [cavv] => 
+            [ucaf] => 
+            [threeDSVersion] => Test/Simulation
+        )
+
+    [ipn_trace] => IPNS0002.67B170DF.0000DC89
+    [paymentChannel] => Payment Page
+)
+
+No order items found for cart_id: 103
+Raw Input:
+{"tran_ref":"TST2504702014045","merchant_id":74060,"profile_id":132344,"cart_id":"104","cart_description":"Order Payment","cart_currency":"EGP","cart_amount":"600.00","tran_currency":"EGP","tran_total":"600.00","tran_type":"Sale","tran_class":"ECom","customer_details":{"name":"Rajitha Somaweera","email":"rajithsoma@gmail.com","phone":"0711209420","street1":"ruwanwella","city":"kegalle","state":"11","country":"LK","zip":"00035","ip":"2402:4000:13e1:8bfa:c59:d729:5529:e258"},"payment_result":{"response_status":"A","response_code":"G82114","response_message":"Authorised","acquirer_ref":"TRAN0001.67B17142.0009D62B","cvv_result":" ","avs_result":" ","transaction_time":"2025-02-16T05:01:54Z"},"payment_info":{"payment_method":"Visa","card_type":"Credit","card_scheme":"Visa","payment_description":"4111 11## #### 1111","expiryMonth":12,"expiryYear":2026},"threeDSDetails":{"responseLevel":1,"responseStatus":1,"enrolled":"N","paResStatus":"","eci":"","cavv":"","ucaf":"","threeDSVersion":"Test/Simulation"},"ipn_trace":"IPNS0001.67B17142.0000DBB2","paymentChannel":"Payment Page"}
+Decoded Response:
+Array
+(
+    [tran_ref] => TST2504702014045
+    [merchant_id] => 74060
+    [profile_id] => 132344
+    [cart_id] => 104
+    [cart_description] => Order Payment
+    [cart_currency] => EGP
+    [cart_amount] => 600.00
+    [tran_currency] => EGP
+    [tran_total] => 600.00
+    [tran_type] => Sale
+    [tran_class] => ECom
+    [customer_details] => Array
+        (
+            [name] => Rajitha Somaweera
+            [email] => rajithsoma@gmail.com
+            [phone] => 0711209420
+            [street1] => ruwanwella
+            [city] => kegalle
+            [state] => 11
+            [country] => LK
+            [zip] => 00035
+            [ip] => 2402:4000:13e1:8bfa:c59:d729:5529:e258
+        )
+
+    [payment_result] => Array
+        (
+            [response_status] => A
+            [response_code] => G82114
+            [response_message] => Authorised
+            [acquirer_ref] => TRAN0001.67B17142.0009D62B
+            [cvv_result] =>  
+            [avs_result] =>  
+            [transaction_time] => 2025-02-16T05:01:54Z
+        )
+
+    [payment_info] => Array
+        (
+            [payment_method] => Visa
+            [card_type] => Credit
+            [card_scheme] => Visa
+            [payment_description] => 4111 11## #### 1111
+            [expiryMonth] => 12
+            [expiryYear] => 2026
+        )
+
+    [threeDSDetails] => Array
+        (
+            [responseLevel] => 1
+            [responseStatus] => 1
+            [enrolled] => N
+            [paResStatus] => 
+            [eci] => 
+            [cavv] => 
+            [ucaf] => 
+            [threeDSVersion] => Test/Simulation
+        )
+
+    [ipn_trace] => IPNS0001.67B17142.0000DBB2
+    [paymentChannel] => Payment Page
+)
+
+Raw Input:
+{"tran_ref":"TST2504702014047","merchant_id":74060,"profile_id":132344,"cart_id":"105","cart_description":"Order Payment","cart_currency":"EGP","cart_amount":"1200.00","tran_currency":"EGP","tran_total":"1200.00","tran_type":"Sale","tran_class":"ECom","customer_details":{"name":"Rajitha Somaweera","email":"rajithsoma@gmail.com","phone":"0711209420","street1":"ruwanwella","city":"kegalle","state":"11","country":"LK","zip":"00035","ip":"2402:4000:13e1:8bfa:c59:d729:5529:e258"},"payment_result":{"response_status":"A","response_code":"G83601","response_message":"Authorised","acquirer_ref":"TRAN0001.67B17711.0009D9C6","cvv_result":" ","avs_result":" ","transaction_time":"2025-02-16T05:26:41Z"},"payment_info":{"payment_method":"Visa","card_type":"Credit","card_scheme":"Visa","payment_description":"4111 11## #### 1111","expiryMonth":12,"expiryYear":2026},"threeDSDetails":{"responseLevel":1,"responseStatus":1,"enrolled":"N","paResStatus":"","eci":"","cavv":"","ucaf":"","threeDSVersion":"Test/Simulation"},"ipn_trace":"IPNS0001.67B17711.0000DC15","paymentChannel":"Payment Page"}
+Decoded Response:
+Array
+(
+    [tran_ref] => TST2504702014047
+    [merchant_id] => 74060
+    [profile_id] => 132344
+    [cart_id] => 105
+    [cart_description] => Order Payment
+    [cart_currency] => EGP
+    [cart_amount] => 1200.00
+    [tran_currency] => EGP
+    [tran_total] => 1200.00
+    [tran_type] => Sale
+    [tran_class] => ECom
+    [customer_details] => Array
+        (
+            [name] => Rajitha Somaweera
+            [email] => rajithsoma@gmail.com
+            [phone] => 0711209420
+            [street1] => ruwanwella
+            [city] => kegalle
+            [state] => 11
+            [country] => LK
+            [zip] => 00035
+            [ip] => 2402:4000:13e1:8bfa:c59:d729:5529:e258
+        )
+
+    [payment_result] => Array
+        (
+            [response_status] => A
+            [response_code] => G83601
+            [response_message] => Authorised
+            [acquirer_ref] => TRAN0001.67B17711.0009D9C6
+            [cvv_result] =>  
+            [avs_result] =>  
+            [transaction_time] => 2025-02-16T05:26:41Z
+        )
+
+    [payment_info] => Array
+        (
+            [payment_method] => Visa
+            [card_type] => Credit
+            [card_scheme] => Visa
+            [payment_description] => 4111 11## #### 1111
+            [expiryMonth] => 12
+            [expiryYear] => 2026
+        )
+
+    [threeDSDetails] => Array
+        (
+            [responseLevel] => 1
+            [responseStatus] => 1
+            [enrolled] => N
+            [paResStatus] => 
+            [eci] => 
+            [cavv] => 
+            [ucaf] => 
+            [threeDSVersion] => Test/Simulation
+        )
+
+    [ipn_trace] => IPNS0001.67B17711.0000DC15
+    [paymentChannel] => Payment Page
+)
+
